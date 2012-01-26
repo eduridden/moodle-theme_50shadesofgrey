@@ -1,0 +1,1229 @@
+/* @group Core */
+
+a:link {
+    text-decoration: none;
+    color: #6699cc;
+}
+a:visited {
+    text-decoration: none;
+    color: #6699cc;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+img.icon,
+img.iconhelp {
+    vertical-align: middle;
+}
+
+html, body {
+    background: #fafafa url([[pix:theme|background]]) repeat;
+}
+
+#page-content {
+    background: transparent;
+    min-width: 0;
+}
+
+h2 {
+	color: #336699;
+	font-size: 1.3em;
+}
+/* @end */
+/* @group Header */
+#topbar {
+	background: #efefef url([[pix:theme|topbar_bg]]) repeat bottom left;
+	height: 35px;
+	width: 100%;
+	padding-top: 10px;
+	border-bottom: 10px solid #f9f9f9;
+}
+
+#topbar .time {
+	float: left;
+	padding-top: 5px;
+	color: #888;
+	text-shadow: 0 1px 0px rgba(255, 255, 255, 0.7);
+	text-transform: uppercase;
+	font-family: 'Droid Sans', Arial, serif;
+	font-size: .85em;
+}
+
+#topbar-wrapper {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+#page-header {
+    background: transparent;
+    margin: 0;
+    padding: 0px;
+    width: 100%;
+}
+
+.logo {
+	background: transparent url([[pix:theme|logo]]) top left no-repeat;
+	height: 70px;
+	width: 192px;
+	float: left;
+	margin: 15px;
+	margin-top: 10px;
+}
+
+h1.headermain {
+    float: left;
+    font-size: 2.3em;
+    margin: 15px;
+    line-height: 1;
+}
+
+#page-header .headermain span {
+    color: #C8C9C7;
+}
+
+/** Navbar **/
+
+.hasnavbar #page-header {
+    border-bottom-color: #3A4D28;
+    border-bottom-width: 3px;
+}
+
+#page-header .navbar {
+    background: #fff url([[pix:theme|breadcrumbs_bg]]) repeat-x;
+    width: 100%;
+    margin-bottom: 30px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+}
+
+#page-header .navbar {
+    color: #888 !important;
+}
+
+.breadcrumb ul li {
+	padding: 7px 22px 7px 5px;
+	background: url([[pix:theme|breadcrumbs]]) 100% 50% no-repeat;
+}
+
+.navbar,
+.breadcrumb a,
+.breadcrumb a:link,
+.breadcrumb a:visited {
+    color: #888;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7);
+}
+
+.breadcrumb a:hover {
+	color: black;
+}
+
+.navbar ul li:last-child a,
+.navbar ul li:last-child {
+	color: #6699cc !important;
+}
+
+#page-header .navbar .breadcrumb,
+#page-header .navbar .navbutton {
+    margin: 5px 1em;
+}
+
+.headermenu {
+	float: right;
+	margin-top: 20px;
+}
+
+#page-header .logininfo {
+	margin-right: 10px;
+	font-size: 1.1em;
+}
+
+/* @end */
+
+/* @group Footer */
+
+#page-footer {
+    background: #efefef url([[pix:theme|footer_bg]]) repeat-x top left;
+    color: #FFF;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#page-footer .left {
+	float: left;
+	width: 40%;
+	border-bottom: 1px solid #eaeaea;
+}
+#page-footer .middle {
+	float: left;
+	width: 30%;
+	text-align: center;
+	border-bottom: 1px solid #eaeaea;
+}
+#page-footer .right {
+	float: left;
+	width: 30%;
+	text-align: right;
+	border-bottom: 1px solid #eaeaea;
+}
+
+#page-footer .block .corner-box {
+    background: transparent;
+    border: 0px none;
+    margin-bottom: -20px;
+}
+
+#page-footer .block .header .block_action {
+	display: none;
+}
+
+#page-footer .block .header h2 {
+	text-transform: capitalize;
+	color: #6699cc;
+	font-size: 1.6em;
+}
+
+#footnote {
+	background: transparent url([[pix:theme|page_bg]]) repeat-x top left;
+	width: 100%;
+	overflow: hidden;
+}
+
+#footnote p {
+	font-size: .85em;
+	padding: 20px;
+	color: #aaa;
+}
+
+/* @end */
+
+/* @group General */
+
+.generalbox {
+    border: 1px solid #DDDDDD;
+}
+.generaltable td {
+    border-width: 0;
+}
+.sitetopic {
+    border-width: 0;
+}
+.headingblock {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #697F55;
+    background-color: #E3E3E3;
+    padding: 4px 5px;
+}
+
+.coursebox {
+    width: 100%;
+    margin: 10px 0;
+    border-bottom: 1px solid #E3E3E3;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+.coursebox .info {
+    width: 35%;
+    float: left;
+}
+.coursebox .summary {
+    width: 60%;
+    float: right;
+}
+
+.course-content ul.section {
+    margin: 0;
+}
+
+.course-content .headingblock.outline {
+    margin-top: 0;
+}
+
+.course-content .section.main {
+    border:1px solid #E3E3E3;
+    margin-bottom: 10px;
+}
+
+.course-content .section.main .left.side {
+    float:left;width:20px;padding:5px;
+}
+
+.course-content .section.main .right.side {
+    float: right;
+    width: 20px;
+    padding: 5px;
+}
+
+.course-content .section.main .content {
+    margin: 0 30px 10px 30px;
+    background-color: #FFF;
+}
+
+.course-content .section.main .content .section_add_menus {
+    text-align: right;
+}
+
+#page-report-outline-user .section {
+    border: 1px solid #DDD;
+    margin: 0 5% 1.5em 5%;
+}
+
+#page-report-outline-user .section h2,
+#page-report-outline-user .section .content {
+    margin: 5px 1em;
+}
+
+#page-report-outline-user .section table td {
+    border: 0;
+}
+
+.generaltable {
+    border: 1px solid #DDD;
+}
+
+.generaltable .cell {
+    background-color: #FFF;
+    border:1px solid #EEE;
+    border-collapse: collapse;
+}
+
+.generaltable .header {
+    background-color: #EEE;
+    border: 1px solid #EEE;
+    font-weight: bold;
+}
+
+/* @end */
+
+/* @group Login */
+
+.loginbox {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.loginbox .loginform {
+    margin-top: 15px;
+}
+
+.loginbox .loginform .form-label {
+    width: 39%;
+    float: left;
+    text-align: right;
+}
+
+.loginbox .loginform .form-input {
+    width: 60%;
+    float: right;
+    text-align: left;
+}
+
+.loginbox .loginform .form-input input {
+    width: 6em;
+}
+
+.loginbox.twocolumns {
+    border: 1px solid #DDD;
+}
+
+.loginbox.twocolumns .loginpanel {
+    float: left;
+    width: 49%;
+    text-align: center;
+}
+
+.loginbox.twocolumns .signuppanel {
+    float: left;
+    width: 50%;
+    border-left: 1px solid #DDD;
+}
+
+.loginbox.twocolumns .signuppanel h2 {
+    text-align: center;
+}
+
+.loginbox.twocolumns .signuppanel div {
+    margin: 1em;
+}
+
+.loginbox.twocolumns .signuppanel div li {
+    font-size: 90%;
+}
+
+.loginbox .loginsub {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.loginbox .guestsub {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-top: 1px solid #DDD;
+}
+
+/* @end */
+
+/* @group blocks */
+
+.block {
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-align: left;
+}
+.block h1,
+.block h2,
+.block h3,
+.block h4 {
+    margin: 0;
+}
+
+.block .header {
+    margin: 10px 6px 3px 6px;
+}
+
+.block .header h2 {
+	color: #999;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-family: 'Droid Sans', Arial, serif;
+}
+.block .content {
+    margin: 10px 6px 3px 6px;
+}
+
+/* @end */
+
+/* @group Admin */
+
+.box.adminwarning {
+    text-align: center;
+    border: 1px solid #C8C9C7;
+    background-color: #E3E3E3;
+    margin-bottom: 1em;
+    padding: 10px 10%;
+}
+.box.copyright {
+    text-align: center;
+    font-size: 90%;
+    padding: 10px 10%;
+}
+
+#adminsettings fieldset {
+    border: 1px solid #C8C9C7;
+    background-color: #E3E3E3;
+}
+
+#adminsettings fieldset .generalbox {
+    margin: 1em 0.5em;
+    border-color: #C8C9C7;
+}
+
+#adminsettings .form-buttons {
+    margin-left: 13em;
+}
+
+.form-item {
+    width: 100%;
+    margin: 1em 1em 2em 1em;
+}
+
+.form-item .form-label {
+    width: 12.5em;
+    text-align: right;
+    float: left;
+    margin-right: 0.5em;
+}
+
+.form-item .form-label .form-shortname {
+    display: block;
+    color: #666;
+    font-size: 75%;
+}
+
+.form-item .form-setting {
+    margin-left: 13em;
+}
+
+.form-item .form-setting .defaultsnext {
+    display:inline;
+}
+
+.form-item .form-setting .form-defaultinfo {
+    display: inline;
+    margin-left: 0.5em;
+    font-size: 90%;
+    color: #666;
+}
+
+.form-item .form-description {
+    margin: 0.5em 1em 0.5em 13em;
+}
+
+.form-item .form-textarea textarea {
+    width: 495px;
+}
+
+#authmenu .informationbox {
+    width: 80%;
+    margin: 0 auto 10px;
+    border: 1px solid #C8C9C7;
+    padding: 10px;
+}
+#authmenu table td {
+    border-width: 0;
+}
+
+#categoryquestions {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#categoryquestions th,
+.user th,
+.user th.header,
+.group th.header,
+.admin table tr th,
+.admin table tr th.header {
+    background-color: #697F55;
+    color: #FFF;
+    border: 2px solid #697F55;
+    border-bottom-color: #111;
+}
+
+.user th a:link,
+#categoryquestions th a:link,
+.group  th a:link,
+.admin table tr th a:link {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.user th a:visited,
+#categoryquestions th a:visited,
+.group th a:visited,
+.admin table tr th a:visited {
+    color: #FFF;
+    text-decoration: underline;
+}
+
+.user tr td.cell,
+#categoryquestions tr td.cell,
+.group tr td.cell,
+.admin table tr td.cell {
+    border: 1px solid #C8C9C7;
+    border-width: 0 1px;
+}
+
+.user .r1 .cell,
+#categoryquestions .r1 .cell,
+.group .r1 .cell,
+.admin table .r1 .cell {
+    background-color: #EEE;
+}
+
+.singlebutton,
+.buttons {
+    text-align: center;
+    margin: 20px;
+}
+
+.buttons form {
+    display: inline;
+}
+
+.buttons div {
+    display: inline;
+}
+
+.buttons .singlebutton {
+    display: inline;
+    padding: 5px;
+    margin: 0;
+}
+
+.admin .generalbox {
+    background-color: #EEE;
+    border-color: #C8C9C7;
+}
+
+#admin-mnet-index table td,
+#files-index .column-content table td {
+    border-width: 0;
+}
+
+/* @end */
+
+/* @group Mforms */
+
+.mform fieldset {
+    border-color: #C8C9C7;
+}
+
+
+
+/* @end */
+
+/* @group Tags */
+
+.tag-management-form {
+    text-align:center;
+}
+
+#tag-management-list {
+    margin-top:1em;
+}
+
+/* @end */
+
+/* @group User */
+
+.userinfobox td {
+    border-width: 0;
+    vertical-align: top;
+}
+
+.userinfobox .side {
+    width: 120px;
+    text-align: center;
+}
+
+.userinfobox .list .label {font-weight:bold;text-align:right;
+}
+
+/* @end */
+
+/* @group Forum */
+
+.forumheaderlist,
+.forumpost {
+    margin-top: 15px;
+    border: 1px solid #DDD;
+    border-collapse: separate;
+}
+
+.forumpost,
+.forumpost .left.picture {
+    background-color: #EEE;
+}
+.forumpost .row .left {
+    float: left;
+    overflow: hidden;
+    width: 43px;
+}
+.forumpost .row.header {
+    background-color: transparent;
+    height: 39px;
+}
+.forumpost .topic.firstpost.starter {
+    background-color: #C8C9C7;
+}
+.forumpost .topic .subject,
+.forumpost .topic .author {
+    padding-left: 10px;
+}
+
+.forumpost .content,
+.forumpost .options {
+    background-color: white;
+    padding-top: 10px;
+}
+
+.forumpost .content .shortenedpost a,
+.forumpost .content p {
+    margin: 0 10px;
+    padding: 0;
+}
+.forumpost .options .commands,
+.forumpost .content .attachments,
+.forumpost .options .footer,
+.forumpost .options .link {
+    float: right;
+}
+.forumpost .options .commands,
+.forumpost .options .link {
+    padding-right: 10px;
+}
+
+.forumpost .content .shortenedpost a,
+.forumpost .content .shortenedpost span.post-word-count,
+.forumpost .commands,
+.forumpost .topic .author,
+.forumpost .options .link {
+    font-size: 85%;
+    line-height: 1.6;
+}
+.forumpost .row .left {
+    clear: left;
+}
+
+.forumpost .posting.shortenedpost {margin-left: 10px;}
+
+#page-mod-forum-discuss #page-header { /* fixes broken header in forum discuss */
+    margin-top: 10px;
+}
+
+/* @end */
+
+/* @group Calendar */
+
+.block.block_calendar_month td,
+.block.block_calendar_month th {
+    border-width: 0;
+    font-size: 10px;
+    padding: 1px;
+    width: 14%;
+    line-height: 18px;
+}
+
+#calendar abbr,
+.block.block_calendar_month abbr {
+    border-bottom-width: 0;
+}
+
+#calendar .weekend,
+.block.block_calendar_month .weekend {
+    color: #A00;
+}
+#calendar .maincalendar .calendarmonth td.today,
+.block.block_calendar_month .today {
+    border: 1px solid #444;
+}
+
+#calendar .eventnone a,
+.block.block_calendar_month .eventnone a {
+    color:#444;
+}
+
+#calendar {
+    width: 98%;
+    margin: 0 1%;
+    border-spacing: 5px;
+    border-collapse: separate;
+}
+
+#calendar td,
+#calendar th {
+    border-width: 0;
+    font-size: 10px;
+    padding: 1px;
+    width: 14%;
+    line-height: 18px;
+    vertical-align: top;
+}
+
+#calendar .maincalendar {
+    width: auto;
+    border: 1px solid #DDD;
+}
+
+#calendar .maincalendar .heightcontainer {
+    height: 100%;
+    position: relative;
+    margin: 1em;
+}
+
+#calendar .maincalendar .header {
+    padding: 5px;
+    font-weight: bold;
+}
+
+#calendar .maincalendar .header .buttons {
+    float: right;
+}
+
+#calendar .maincalendar table {
+    width: 100%;
+}
+
+#calendar .maincalendar .calendar-controls {
+    width: 100%;
+    overflow: hidden;
+    font-size: 1.1em;
+}
+
+#calendar .maincalendar .calendar-controls .previous {
+    display: block;
+    float: left;
+    width: 20%;
+}
+
+#calendar .maincalendar .calendar-controls .current {
+    display: block;
+    float: left;
+    width: 60%;
+    text-align: center;
+    margin-top: 0;
+}
+
+#calendar .maincalendar .calendar-controls .next {
+    display: block;
+    float: left;
+    width: 20%;
+    text-align: right;
+}
+
+#calendar .sidecalendar {
+    width: 200px;
+}
+
+#calendar .sidecalendar h2,
+#calendar .sidecalendar h3 {
+    margin: 5px;
+    font-size: 95%;
+}
+
+#calendar .sidecalendar .block {
+    border: 1px solid #DDD;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#calendar .sidecalendar .block table {
+    margin: 0 auto 5px;
+}
+
+#calendar .sidecalendar .block .filters table {
+    width: 95%;
+    margin: 0 auto 1em;
+}
+
+#calendar .sidecalendar .block .minicalendarblock {
+    border-top: 1px solid #DDD;
+}
+
+#calendar .filters table {
+    padding: 2px;
+    background-color: #EEE;
+    border: 1px solid #DDD;
+    border-spacing: 2px;
+    border-collapse: separate;
+}
+
+#calendar .filters table td {
+    font-size: 100%;
+    width: auto;
+}
+
+#calendar .filters .eventskey {
+    border: 1px solid #444;
+    overflow: hidden;
+}
+
+#calendar .calendar_event_global {
+    background-color: #D6F8CD;
+}
+
+#calendar .calendar_event_course {
+    background-color: #FFD3BD;
+}
+
+#calendar .calendar_event_group {
+    background-color: #FEE7AE;
+}
+
+#calendar .calendar_event_user {
+    background-color: #DCE7EC;
+}
+
+#calendar .maincalendar .calendarmonth {
+    border-collapse: separate;
+}
+
+#calendar .maincalendar .calendarmonth th {
+    font-size: 0.9em;
+    border-bottom: 2px solid #444;
+}
+
+#calendar .maincalendar .calendarmonth td {
+    border: 1px solid #EEE;
+    border-bottom-color: #CCC;
+    border-right-color: #CCC;
+    height: 6em;
+}
+
+#calendar .maincalendar .calendarmonth td div {margin:4px;font-size:0.9em;
+}
+
+#calendar .maincalendar .calendarmonth td .day {font-weight:bold;
+}
+
+#calendar .maincalendar .calendarmonth tr td:first-child {
+    border-left-color: #CCC;
+}
+
+#calendar .maincalendar .event {
+    border-spacing: 0;
+    border: 1px solid #DDD;
+    background-color: #EEE;
+}
+
+#calendar .maincalendar .event .picture {
+    width: 32px;
+    text-align: center;
+}
+
+#calendar .maincalendar .event .topic {
+    width: auto;
+    padding: 5px;
+}
+
+#calendar .maincalendar .event .side {
+    width: 32px;
+}
+
+#calendar .maincalendar .event .description {
+    width: auto;
+    border-top: 1px solid #DDD;
+    border-left:1px solid #DDD;
+    padding: 5px;
+}
+
+#calendar .maincalendar .bottom {
+    text-align: center;
+}
+
+#calendar .calendarmonth ul {
+    margin: 0;
+    padding: 0;
+}
+
+#calendar .calendarmonth ul li {
+    list-style: none;
+    margin: 0;
+    padding: 2px;
+}
+
+/* @end */
+
+/* @group User */
+
+.user .rolesform,
+.user .searchform,
+.user #showall,
+.user #participantsform {
+    text-align:center;
+}
+
+.user #participantsform table {
+    margin-top:1em;
+}
+
+.user #participantsform td {text-align:left;
+}
+
+.user table.controls {
+    margin: 5px auto;
+    border: 1px solid #DDD;
+    background-color: #EEE;
+    border-collapse: collapse;
+}
+.user table.controls td {
+    border-width:0px;
+}
+
+/* @end */
+
+/* @group Custom Menu */
+
+#custommenu {
+    margin-bottom: 0;
+    float: right;
+    text-transform: lowercase;
+}
+
+#custommenu .yui3-menu-horizontal .yui3-menu-content,
+#custommenu .yui3-menu-horizontal.javascript-disabled .yui3-menu-content,
+#custommenu .yui3-menu-horizontal .yui3-menu-content ul,
+#custommenu .yui3-menu-horizontal.javascript-disabled .yui3-menu-content ul,
+#custommenu .yui3-menu-horizontal.javascript-disabled .yui3-menu-content li li:hover > a,
+#custommenu .yui3-menu-horizontal .yui3-menu-label,
+#custommenu .yui3-menuitem,
+#custommenu .yui3-menuitem .yui3-menuitem-content {
+    border-width: 0;
+}
+
+#custommenu .yui3-menu .yui3-menu-label,
+#custommenu .yui3-menu .yui3-menuitem-content {
+    color: #000;
+    font-weight: bold;
+    line-height: 30px;
+    padding: 0 14px;
+}
+
+#custommenu .custom_menu_submenu .yui3-menu-content{
+    background: url([[pix:theme|dropdown_bg]]);
+    min-width: 120px;
+}
+
+#custommenu .custom_menu_submenu .yui3-menu-content ul li{
+    border-bottom: 1px dashed #ccc !important;
+}
+
+#custommenu .yui3-menuitem-active .yui3-menuitem-content {
+    background-image: none;
+}
+
+#custommenu .custom_menu_submenu .yui3-menu-label,
+#custommenu .custom_menu_submenu .yui3-menuitem-content {
+    line-height: 25px;
+    padding: 0 20px;
+}
+
+#custommenu .yui3-menu-label-active,
+#custommenu .yui3-menu-label-menuvisible,
+#custommenu .yui3-menuitem-active .yui3-menuitem-content,
+#custommenu .yui3-menu .yui3-menu .yui3-menuitem-active .yui3-menuitem-content,
+#custommenu .yui3-menu-horizontal.javascript-disabled li a:hover {
+    background-color: #e5f1fd;
+}
+
+/* @end */
+
+/* @group Add Block */
+
+.block .content .singleselect form#add_block .select.menubui_addblock { width: 160px;}
+
+
+
+/* @end */
+
+/** Overide for RTL layout **/
+
+.dir-rtl #page-header .navbar .breadcrumb {
+    float:right;
+}
+.dir-rtl #page-header .navbar .navbutton {
+    float:left;
+}
+
+/* @group Frontpage */
+
+.slideshow {
+	background: transparent url([[pix:theme|top_slideshow]]) top left no-repeat;
+	width: 100%;
+	height: 250px;
+	padding: 0px;
+	padding-left: 5px;
+	margin-top: -20px;
+}
+
+
+.slideshow .block .corner-box,
+.slideshow .block {
+    border: 0px none;
+    padding: 0px !important;
+    margin: 0px !important;
+    background: transparent;
+}
+
+.products {
+	width: 100%;
+	overflow: hidden;
+	margin-top: 10px;
+}
+.products .left {
+	float: left;
+	width: 33%;
+}
+.products .middle {
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+.products .right {
+	float: left;
+	width: 34%;
+	text-align: right;
+}
+
+.products .block .corner-box {
+    background: transparent;
+    border: 0px none;
+    margin-bottom: -30px;
+}
+
+.products .block .header .block_action {
+	display: none;
+}
+
+.products .block .header h2 {
+	text-transform: lowercase;
+	color: #336699;
+	font-size: 1.6em;
+}
+
+.clients {
+	width: 100%;
+	border-top: 10px solid #fafafa;
+	padding-top: 10px;
+	background: transparent;
+	margin-top: -10px;
+	margin-bottom: -20px;
+}
+
+.clients .block .corner-box {
+    background: transparent;
+    border: 0px none;
+    margin-bottom: -20px;
+    margin-top: -15px;
+}
+
+.clients .block .header .block_action {
+	display: none;
+}
+
+.clients .block .header h2 {
+	display: none;
+}
+/* @end */
+
+/* @group Course Formatting */
+
+h2 {
+	color: #4f4f4f;
+	font-size: 1.5em;
+	font-weight: normal;
+	font-family: 'Droid Sans', Arial, serif;
+}
+
+.sectionname {
+	color: #4f4f4f;
+	font-size: 1.5em;
+	font-weight: normal;
+	font-family: 'Droid Sans', Arial, serif;
+}
+
+.book_chapter_title {
+	color: #1A8ECA;
+	font-family: 'Droid Sans', Arial, serif !important;
+	font-weight: normal !important;
+	font-size: 1.8em !important; 
+	text-transform: uppercase;
+	border-bottom: 1px solid #e5e5e5;
+	padding-bottom: 15px;
+}
+
+.book_content {
+	border: 0px none;
+	padding: 0px;
+	margin: 0px;
+}
+
+ul.check {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	padding-left: 5px;
+}
+
+ul.check > li { 
+	margin-top: 8px; 
+	padding-left: 28px;
+}
+
+ul.check > li:first-child {
+	margin-top: 0; 
+}
+
+ul.check > li { 
+	background: no-repeat url([[pix:theme|list_check]]) top left; 
+	height: 20px;
+	background-position: 0px -5px
+}
+
+/* @end */
+
+/* @group Book Module Overrides */
+
+.navtop {
+	display: none;
+}
+/* @group TOC */
+
+.book_toc_none {
+	margin-left: -14px;
+	width: 202px;
+	margin-top: -10px;
+}
+
+.book_toc_none a {
+	color: #666;
+}
+
+.book_toc_none li {
+	border-top: 1px solid rgba(255,255,255,1.0);
+	background: #EBEBEB url([[pix:theme|toc]]) top left repeat-x;
+	color: #000;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	padding: 10px;
+	text-transform: uppercase;
+	margin-top: 0px !important;
+	font-family: 'Droid Sans', Arial, serif !important;
+	font-weight: normal !important;
+}
+
+/* Hover */
+.book_toc_none li a:hover {
+	color: #1A8ECA;
+}
+
+.book_toc_none li a:hover {
+	text-decoration: none;
+}
+
+
+
+/* @end */
+
+
+/* @end */
+
+/* @group Social Icons */
+
+.social {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: right;
+}
+
+.social li {
+	float: left;
+	line-height: 24px;
+}
+
+.social li a {
+	display: inline-block;
+	width: 30px;
+	height: 25px;
+	margin-left: 5px;
+	float: left;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	text-indent: 50px;
+}
+
+.social li a { background-image: url([[pix:theme|icons_social]]); }
+
+.social .twitter a { background-position: 0 0; }
+.social .twitter a:hover { background-position: 0 -40px; }
+
+.social .facebook a { background-position: 0 -80px; }
+.social .facebook a:hover { background-position: 0 -120px; }
+
+.social .flickr a { background-position: 0 -160px; }
+.social .flickr a:hover { background-position: 0 -200px; }
+
+.social .linkedin a { background-position: 0 -240px; }
+.social .linkedin a:hover { background-position: 0 -280px; }
+
+/* @end */
