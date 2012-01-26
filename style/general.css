@@ -1144,7 +1144,8 @@ ul.check > li {
 
 /* @group Book Module Overrides */
 
-.navtop {
+.navtop,
+.navbottom {
 	display: none;
 }
 /* @group TOC */
@@ -1225,5 +1226,11 @@ ul.check > li {
 
 .social .linkedin a { background-position: 0 -240px; }
 .social .linkedin a:hover { background-position: 0 -280px; }
+
+/* @end */
+
+/* @group Custom CSS */
+
+[[setting:customcss]]
 
 /* @end */
