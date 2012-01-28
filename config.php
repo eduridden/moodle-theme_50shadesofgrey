@@ -97,7 +97,7 @@ $THEME->layouts = array(
         'defaultregion' => 'side-post',
     ),
     'course' => array(
-        'file' => 'general.php',
+        'file' => 'course.php',
         'regions' => array('side-post','footer-left','footer-middle','footer-right'),
         'defaultregion' => 'side-post'
     ),
