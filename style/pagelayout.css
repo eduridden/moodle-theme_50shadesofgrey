@@ -1,7 +1,7 @@
 /*********************************************************************************************
 
-    left column: 200px
-    right column: 200px
+    left column: 250px
+    right column: 250px
     padding left/right column: 10px
     padding center column: 30px
 
@@ -42,7 +42,7 @@ body {
 
 #page-content #region-main-box #region-post-box {
     float: left;
-    margin-left: -200px;
+    margin-left: -250px;
     width: 100%;
 }
 
@@ -54,22 +54,22 @@ body {
 #page-content #region-main-box #region-post-box #region-main-wrap #region-main {
     overflow: hidden;
     position: relative;
-    margin-left: 200px;
+    margin-left: 250px;
     left: 100%;
 }
 
 #page-content #region-main-box #region-post-box #region-pre {
     float: right;
     position: relative;
-    left: 200px;
-    width: 200px;
+    left: 250px;
+    width: 250px;
 }
 
 #page-content #region-main-box #region-post-box #region-post {
     float: right;
     position: relative;
-    left: 200px;
-    width: 200px;
+    left: 250px;
+    width: 250px;
     padding-right: 15px;
 }
 
@@ -93,7 +93,7 @@ body {
 
 
 .has_dock.side-post-only .page-middle #region-main-box #region-post-box #region-main-wrap #region-main {
-    margin-left: 200px;
+    margin-left: 250px;
 }
 
 /** No blocks whatsoever **/
@@ -128,20 +128,20 @@ body {
 .pagelayout-report #report-main-content .region-content {margin-left:210px;margin-top:20px;}
 .pagelayout-report #report-main-content .region-content table {background-color:#FFF;}
 .pagelayout-report #report-region-wrap {width:0;float:right;position:relative;left:-100%;}
-.pagelayout-report #report-region-pre {width:200px;margin-top:20px;}
+.pagelayout-report #report-region-pre {width:250px;margin-top:20px;}
 .pagelayout-report #page-footer {float:none;}
 .pagelayout-report #page-content .region-content {overflow:visible;}
 .pagelayout-report.content-only #report-main-content .region-content {margin-left:0;}
 
 /** Correct for right to left languages **/
-.dir-rtl.pagelayout-report #report-main-content .region-content {margin-left:0;margin-right:200px;}
+.dir-rtl.pagelayout-report #report-main-content .region-content {margin-left:0;margin-right:250px;}
 .dir-rtl.pagelayout-report #report-region-wrap {left:0;}
 
 /** Stabalise IE6 behaviour on the report layout **/
 .ie6.pagelayout-report #report-main-content,
 .ie7.pagelayout-report #report-main-content {float:none;width:auto;}
 .ie6.pagelayout-report #report-region-wrap,
-.ie7.pagelayout-report #report-region-wrap {float:none;width:200px;left:auto;position:absolute;top:0;}
+.ie7.pagelayout-report #report-region-wrap {float:none;width:250px;left:auto;position:absolute;top:0;}
 .ie6.pagelayout-report #report-region-pre,
 .ie6.pagelayout-report #report-region-pre .block
 .ie7.pagelayout-report #report-region-pre,
