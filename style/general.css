@@ -204,7 +204,7 @@ h1.headermain {
 /* @group General */
 
 .generalbox {
-    border: 1px solid #DDDDDD;
+    border: 0px none ;
 }
 .generaltable td {
     border-width: 0;
@@ -1088,9 +1088,29 @@ h1.headermain {
 
 /* @group Course Formatting */
 
+#pageheading {
+	color: #1A8ECA;
+	font-family: 'Droid Sans', Arial, serif !important;
+	font-weight: normal !important;
+	font-size: 1.8em !important; 
+	text-transform: uppercase;
+	border-bottom: 1px solid #e5e5e5;
+	padding-bottom: 15px;
+	margin-top: 0px;
+	padding-top: 0px;
+	text-align: left;
+}
+
 h2 {
 	color: #4f4f4f;
 	font-size: 1.5em;
+	font-weight: normal;
+	font-family: 'Droid Sans', Arial, serif;
+}
+
+h3 {
+	color: #336699;
+	font-size: 1.1em;
 	font-weight: normal;
 	font-family: 'Droid Sans', Arial, serif;
 }
