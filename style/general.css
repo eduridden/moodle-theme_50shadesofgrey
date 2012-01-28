@@ -501,12 +501,15 @@ h1.headermain {
 .group th.header,
 .admin table tr th,
 .admin table tr th.header {
-    background-color: #697F55;
+    background-color: #6699cc;
     color: #FFF;
-    border: 2px solid #697F55;
+    border: 2px solid #ccc;
     border-bottom-color: #111;
 }
 
+.displayname {
+	color: #000 !important;
+}
 .user th a:link,
 #categoryquestions th a:link,
 .group  th a:link,
@@ -559,7 +562,7 @@ h1.headermain {
 }
 
 .admin .generalbox {
-    background-color: #EEE;
+    background-color: transparent;
     border-color: #C8C9C7;
 }
 
