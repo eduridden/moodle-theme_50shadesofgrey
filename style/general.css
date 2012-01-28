@@ -260,7 +260,7 @@ h1.headermain {
 
 .course-content .section.main .content {
     margin: 0 30px 10px 30px;
-    background-color: #FFF;
+    background-color: transparent;
 }
 
 .course-content .section.main .content .section_add_menus {
@@ -286,7 +286,7 @@ h1.headermain {
 }
 
 .generaltable .cell {
-    background-color: #FFF;
+    background-color: transparent;
     border:1px solid #EEE;
     border-collapse: collapse;
 }
