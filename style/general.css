@@ -399,6 +399,14 @@ h1.headermain {
     margin: 10px 6px 3px 6px;
 }
 
+.block .content ul {
+	margin-left: 0px;
+	font-size: .95em;
+}
+.block .content ul li {
+	list-style-position: inside;
+}
+
 /* @end */
 
 /* @group Admin */
